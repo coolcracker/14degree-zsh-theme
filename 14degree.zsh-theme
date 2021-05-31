@@ -12,6 +12,7 @@ local venv_prompt='$(virtualenv_prompt_info)'
 ZSH_THEME_RVM_PROMPT_OPTIONS="i v g"
 
 PROMPT="┌─[${user_host}]
+│
 └──╼%B[${current_dir}${venv_prompt}]${user_symbol}%b "
 RPROMPT="%B${return_code}%b"
 
